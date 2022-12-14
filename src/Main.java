@@ -9,7 +9,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("BeeSimulator.fxml"));
-        primaryStage.setTitle("Barry Bee Benson");
+        primaryStage.setTitle("Barry src.Bee Benson");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
